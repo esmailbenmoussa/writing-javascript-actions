@@ -1,1 +1,10 @@
-Create pull request
+name: JS Actions
+
+on: [push]
+
+jobs:
+  actions:
+      runs-on: ubuntu-öatest
+      
+      steps:
+        - uses: actions/checkout@v1
